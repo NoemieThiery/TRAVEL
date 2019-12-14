@@ -1,0 +1,139 @@
+.body{
+	margin : 0;
+}
+.flexbox1{
+	background-image: url("https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	width : 100%;
+	height: 600px;
+	display : flex;
+	justify-content : space-evenly;
+	align-items : flex-start;
+	border:1px solid white;
+	border-radius:10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.div1{
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+	width : 500px;
+	margin: 100px auto;
+	text-align: center;
+	/*border : 1px solid black;*/
+}
+h1{
+	font-size: 50px;
+	text-align: right;
+	color : white;
+}
+#p1{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+#p2{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 5px;
+	background-color : black;
+	border-radius: 10px;
+	width : 200px;
+	letter-spacing: 0,5em;
+	color: white;
+	margin: 50px auto;
+}
+
+.flexbox2{
+	width : 100%;
+	height: 600px;
+	display : flex;
+	justify-content : space-evenly;
+	align-items : flex-start;
+	border:1px solid white;
+	border-radius: 10px;
+}
+
+.div2 {
+	background-image: url("https://images.pexels.com/photos/2331588/pexels-photo-2331588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	width : 400px;
+	height: 400px;
+	margin: auto;
+	border : 2px solid black;
+}
+.bouton2:hover, .bouton3:hover, .bouton1:hover{
+	color: white;
+}
+.div3 {
+	background-image: url("https://images.pexels.com/photos/935474/toronto-beauty-clouds-skyline-935474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	width : 400px;
+	height: 400px;
+	margin: auto;
+	border : 2px solid black;
+}
+.div4 {
+	background-image: url("https://images.pexels.com/photos/163992/pexels-photo-163992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	width : 400px;
+	height: 400px;
+	margin: auto;
+	border : 2px solid black;
+}
+.bouton1, .bouton2, .bouton3{
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+.footer{
+	text-align:center;
+	justify-content: center;
+	padding:10px;
+	margin: auto;
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.div-footer {
+	width: 100%;
+	height: 150px;
+
+}
+
+.div-flex {
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.footer-concombre {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.links {
+	height: 50px;
+	font-size: 30px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.fb{
+	margin-right: 20px;
+}
+.insta{
+	margin-right: 20px;
+}
